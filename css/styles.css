@@ -160,7 +160,7 @@ body {
   margin: 20px 10px;
 }
 
-@media (max-width:992px) {
+@media (min-width:249px) and (max-width:992px) {
 
   #title {
     text-align: center;
@@ -171,58 +171,45 @@ body {
     transform: rotate(0deg);
   }
 }
-@media (max-width:573px) {
+
+ @media (max-width:573px) {
+
   h1{
     font-size: 30px;
     font-weight: lighter;
   }
-  h2{
+
+  #testimonials h2{
     font-size: 25px;
     font-weight: lighter;
   }
-  h3{
+  #press img{
+      width: 20%;
+  }
+  #pricing h2{
+    font-size: 27px;
+    font-weight:bold;
+  }
+  #pricing h3{
     font-size: 20px;
     font-weight: lighter;
   }
-  p{
+  #pricing p{
     font-size: 15px;
-    /* line-height: 1; */
   }
-  #title {
-    text-align: center;
+  #cta h3{
+    font-size: 25px;
+    font-weight: lighter;
   }
+  .pricing-col{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .card-body p{
+    line-height: 1;
+  }
+}
+/*
 
-  .title-img {
-    position: static;
-    transform: rotate(0deg);
-  }
-}
-#testimonials h2{
-  font-size: 25px;
-}
-.press-logo{
-  width: 20%;
-}
-/* #pricing h2{
-  font-size: 25px;
-}
-#pricing p{
-  font-size: 15px;
-}
-#pricing h3{
-  font-size: 20px;
-}
-#pricing h2{
-  font-size: 25px;
-} */
-.pricing-col{
-  padding-left: 0;
-  padding-right: 0;
-}
-.card-body p{
-  line-height: 1;
-}
-#cta h3{
-  font-size: 25px;
-  font-weight: lighter;
-}
+
+ */
